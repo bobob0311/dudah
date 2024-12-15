@@ -1,7 +1,6 @@
 import "./App.css";
 import FirstPage from "./FirstPage.jsx";
 import { useState, useEffect } from "react";
-import Login from "./login.jsx";
 import LoginPage from "./login/LoginPage.jsx";
 import SearchPage from "./search/SearchPage.jsx";
 import DetailPage from "./detail/DetailPage.jsx";
@@ -19,9 +18,13 @@ function App() {
     setIsDetail(true);
   };
 
+  const handleTouch = () => {
+    setState("Login");
+  };
+
   let now;
   if (state == "start") {
-    now = <FirstPage />;
+    now = <FirstPage onTouch={handleTouch} />;
   } else {
     if (isLogin) {
       if (isDetail) {
@@ -33,12 +36,6 @@ function App() {
       now = <LoginPage onLogin={handleLogin} />;
     }
   }
-
-  useEffect(() => {
-    setTimeout(() => {
-      setState("login");
-    }, 1500);
-  }, []);
 
   return (
     <>

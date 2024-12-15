@@ -1,10 +1,16 @@
+import { useState } from "react";
 import styled from "./FirstPage.module.css";
 import MainImg from "./component/MainImg";
 import BackGround from "./component/backGround";
 
-export default function FisrtPage() {
+export default function FisrtPage(props) {
+  const { onTouch } = props;
+  const handleClick = () => {
+    onTouch();
+  };
   return (
     <>
+      <div onClick={handleClick} className={styled.touch}></div>
       <BackGround />
       <div className={styled.box}>
         <MainImg />
