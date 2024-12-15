@@ -1,0 +1,98 @@
+.detail {
+    width: 62px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--button, #B2EDFF);
+    box-shadow: 0px 0px 4px 0px var(--Color-8, #D4DDCF);
+    color: var(--Grayscale-80, #414141);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+}
+
+.title{
+    width: 40px;
+    color: #000;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 8px;
+}
+
+.text{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.category{
+    margin-inline-end: 10px;
+    padding-inline: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 20px;
+    border-radius: 40px;
+    background-color: #218CC5;
+    color: #FFF;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.grade{
+    padding-inline: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 20px;
+    border-radius: 40px;
+    background-color: #51C8ED;
+    color: #FFF;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container{
+    width: 260px;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 20px;
+    border: 0.8px solid #32CEFF;
+    background: var(--Base-Color, rgba(178, 237, 255, 0.17));
+    padding-left : 12px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2px;
+}

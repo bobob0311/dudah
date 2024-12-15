@@ -1,0 +1,13 @@
+.text{
+    font-family: Pretendard;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: auto;
+    margin-left: 12px;
+}
+
+.blue{
+    color: #218CC5;
+}

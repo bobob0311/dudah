@@ -1,0 +1,104 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 304px;
+    height: 88px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.image {
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    margin-left: 20px;
+}
+
+.category{
+    width: 63px;
+    height: 18px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 1px rgba(178, 237, 255, 0.69);
+
+    color: #FFF;
+    text-align: center;
+    text-shadow: -0.1px -0.1px 15px #FFF;
+    font-family: Pretendard;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.text{
+    color: rgba(0, 0, 0, 0.80);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    margin-left: 6px;
+}
+
+.box{
+    height: 100%;
+    margin-left: 5px;
+}
+
+.btn{
+    all: unset;
+    appearance: none;
+    margin-left: auto;
+    margin-right: 22px;
+}
+
+.bigContainer{
+    margin-top: 15px;
+    background: var(--Base-Color, rgba(178, 237, 255, 0.17));
+    border-radius: 20px;
+    border: 0.8px solid #72DEFF;
+}
+
+.extendBox{
+    margin-left: 5%;
+    margin-right:9%;
+    color: #000;
+    font-family: Pretendard;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    margin-bottom: 10px;
+}
+
+.textBox{
+    margin: auto;
+    width: 270px;
+    color: #000;
+    font-family: Pretendard;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    border-radius: 15px;
+    border: 0.4px solid #72DEFF;
+    padding-inline: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.blue{
+    color: #218CC5;
+    font-family: Pretendard;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    margin-left: 3px;
+}
